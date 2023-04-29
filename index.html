@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Complex UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--bootstrap starter-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar section -->
+    <header class="header" id="top">
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                
+                    <a class="navbar-brand" href="#">Complex UI</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="#">Section1</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Section2</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">Section 3</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Blogs</a>
+                            </li> -->
+                        </ul>
+                    
+                    
+                   
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    
+                </div>
+
+                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div> -->
+            </nav>
+        
+    </header>
+    <!-- carousel section -->
+    <section>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/city1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Mumbai</h5>
+                  <p>Mumbai is the centre of the Mumbai Metropolitan Region, the sixth most populous metropolitan area in the world with a population of over 23 million (2.3 crore) living under the Brihanmumbai Municipal Corporation.</p>
+                  <button type="button" class="btn btn-primary">call to action</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/city2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bangalore</h5>
+                  <p>Located on the Deccan Plateau, at a height of over 900 m (3,000 ft) above sea level, Bangalore has a pleasant climate throughout the year, with its parks and green spaces earning it the reputation as the "Garden City" of India. Its elevation is the highest among the major cities of India.</p>
+                  <button type="button" class="btn btn-primary">call to action</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/city3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>New Delhi</h5>
+                  <p>New Delhi is best known as the location of India's national government. New Delhi has great historical significance as it was home to powerful people, such as the Pāṇḍavas and the Mughals. The city has many historical monuments and tourist attractions as well as lively marketplaces and great food, such as chaat.</p>
+                  <button type="button" class="btn btn-primary">call to action</button>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+    </section>
+    <!-- custom css section -->
+    <section>
+        <div class="flex">
+            <div class="food">
+                <img src="./images/idlinew.jpg" alt="Idli">
+                <p>Idli - South Indian Food.</p>
+            </div>
+            <div class="food">
+                <img src="./images/panipuri.jpg" alt="Panipuri">
+                <p>Gol gappa-Across India </p>
+            </div>
+            <div class="food">
+                <img src="./images/chole.jpg" alt="chole">
+                <p>Chole-North Indian Food</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Grid section-->
+    <section>
+        <div class="grid">
+            <div class="item">
+                <img src="./images/boy.jpg" alt="boy">
+            </div>
+            <div class="item">
+                <img src="./images/holi.jpg" alt="holi">
+            </div>
+            <div class="item" id="img3">
+                <img src="./images/women.jpg" alt="women">
+            </div>
+            <div class="item">
+                <img src="./images/note.jpg" alt="note">
+            </div>
+            <div class="item">
+                <img src="./images/Indiagate.jpg" alt="Indiagate">
+            </div>
+            <div class="item" id="img6">
+                <img src="./images/golden temple.jpg" alt="Golden Temple">
+            </div>
+            <div class="item">
+                <img src="./images/indiagate1.jpg" alt="Indiagate1">
+            </div>
+            <div class="item">
+                <img src="./images/spices.jpg" alt="spices">
+            </div>
+            <div class="item" id="img9">
+                <img src="./images/idlinew.jpg" alt="idli">
+            </div>
+
+        </div>
+    </section>
+
+    <!--cards-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/depression.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Depression</h5>
+                          <p class="card-text">the National Mental Health Survey 2015-16 revealed that nearly 15% Indian adults need active intervention for one or more mental health issues .</p>
+                          <a href="#" class="btn btn-primary">Call to action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" >
+                        <img src="./images/women 1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">women Abuse</h5>
+                          <p class="card-text">It encompasses all physical, sexual, emotional, economic and psychological actions or threats of actions that influence another person. </p>
+                          <a href="#" class="btn btn-primary">Call to action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/study.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Peer Pressure</h5>
+                          <p class="card-text">01/4As per a study, 63.5% of Indian students reported stress due to academic pressure. As simple as it is,academic demands. </p>
+                          <a href="#" class="btn btn-primary">Call to action</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="main-footer">
+            <div class="useful-links">
+                <h6>Useful links</h6>
+                <ul>
+                    <li><a href="#">Link1</a></li>
+                    <li><a href="#">Link2</a></li>
+                    <li><a href="#">Link3</a></li>
+                </ul>
+                <p>@ 2023 complex UI,All Rights Reserved</p>
+            </div>
+            <div class="more-links">
+                <h6>More links</h6>
+                <ul>
+                    <li><a href="#">Link4</a></li>
+                    <li><a href="#">Link5</a></li>
+                    <li><a href="#">Link6</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h6>Contact us</h6>
+                <p>xyz@example.com</p>
+                <p>Phone Number:+1 (555) 123-4567</p>
+                <!-- <button type="submit">Back at top</button> -->
+                <button type="button" class="btn btn-primary">Back to top</button>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+</body>
+</html>
